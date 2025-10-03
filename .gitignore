@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual C++ build
+bin/
+obj/
+x64/Debug/
+x64/Release/
+*.pdb
+*.obj
+*.exe
+*.dll
+
+# IntelliSense / ipch / precompiled headers
+*.ipch
+*.pch
+
+# VS browse DB
+*.VC.db
