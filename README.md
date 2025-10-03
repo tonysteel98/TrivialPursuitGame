@@ -1,4 +1,5 @@
 Trivial Pursuit C++ Game
+
 Welcome to the Trivial Pursuit C++ project! This is a complete, multi-part application that brings the classic trivia game to your desktop, built with C++ and managed through a Visual Studio solution.
 
 About The Project
