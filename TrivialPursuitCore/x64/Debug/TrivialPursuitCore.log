@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  DeleteManager.cpp
+  FileReader.cpp
+  FileWriter.cpp
+  GameFunctions.cpp
+  GameSetup.cpp
+C:\Users\Tony Steel\source\repos\TrivialPursuit\TrivialPursuitCore\GameSetup.cpp(89,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/GameSetup.cpp')
+  
+  TrivialPursuitCore.cpp
+  Generating Code...
+  TrivialPursuitCore.vcxproj -> C:\Users\Tony Steel\source\repos\TrivialPursuit\x64\Debug\TrivialPursuitCore.lib

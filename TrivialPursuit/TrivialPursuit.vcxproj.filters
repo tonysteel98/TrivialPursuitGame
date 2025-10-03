@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MFC Core">
+      <UniqueIdentifier>{fd4870ba-26d1-4c01-8800-969e0066fbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{82874d9d-2fce-4230-8419-836de3f37bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6f68aa2b-60cd-4103-b890-841caba9df4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{393e2267-c362-4369-970b-e37603d41354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TrivialPursuit.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TrivialPursuitDlg.h">
+      <Filter>MFC Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdminPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CFinalScorePage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameplayPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CHighScoresPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputNumDlg.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewPlayerPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerSelectPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlaySetupDlg.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingsPage.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>MFC Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TrivialPursuit.cpp">
+      <Filter>MFC Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TrivialPursuitDlg.cpp">
+      <Filter>MFC Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdminPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CFinalScorePage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameplayPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CHighScoresPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputNumDlg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewPlayerPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerSelectPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlaySetupDlg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingsPage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TrivialPursuit.ico">
+      <Filter>MFC Core</Filter>
+    </Image>
+    <Image Include="res\logo.png" />
+    <Image Include="res\background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrivialPursuit.rc">
+      <Filter>MFC Core</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TrivialPursuit.rc2">
+      <Filter>MFC Core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="custom.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="geography.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="HighScores.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="history.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="movie.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="science.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sport.csv">
+      <Filter>Data</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

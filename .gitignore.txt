@@ -1,0 +1,16 @@
+*.suo
+*.user
+*.sln.docstates
+*.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+
+# Other
+*.VC.db
+*.opensdf
+*.sdf
+ipch/

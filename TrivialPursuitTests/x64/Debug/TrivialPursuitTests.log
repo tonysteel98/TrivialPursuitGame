@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  DeleteManagerTest.cpp
+  FileReaderTest.cpp
+  FileWriterTest.cpp
+  GameFunctionsTest.cpp
+  GameSetupTest.cpp
+  TestHelpers.cpp
+  main.cpp
+  Generating Code...
+  TrivialPursuitTests.vcxproj -> C:\Users\Tony Steel\source\repos\TrivialPursuit\x64\Debug\TrivialPursuitTests.exe
