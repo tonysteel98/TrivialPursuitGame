@@ -1,23 +1,45 @@
 # Visual Studio
 .vs/
-*.suo
+.vscode/
 *.user
+*.suo
 *.userosscache
-*.sln.docstates
+*.VC.db
+*.VC.opendb
 
-# Visual C++ build
+# Build / bin
+x64/
+*/x64/
+Debug/
+*/Debug/
+Release/
+*/Release/
+build/
 bin/
 obj/
-x64/Debug/
-x64/Release/
-*.pdb
-*.obj
-*.exe
-*.dll
 
-# IntelliSense / ipch / precompiled headers
+# Intermediate / VS caches
 *.ipch
 *.pch
+*.idb
+*.log
+*.tlog
+*.ilk
+*.sdf
+*.pdb
+*.opendb
 
-# VS browse DB
-*.VC.db
+# Compiled object files and libraries
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
+
+# Package / NuGet
+*.nupkg
+.packages
+
+# Others
+*.cache
+*.vsix
